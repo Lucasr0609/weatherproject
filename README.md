@@ -1,16 +1,16 @@
-#Weather forecast Project
-https://lucasr0609.github.io/weatherproject/
+#Weather forecast Project <br />
+https://lucasr0609.github.io/weatherproject/ <br />
 https://github.com/Lucasr0609/weatherproject
 
-#Server-Side APIs - Openweather One Call API
+#Server-Side APIs - Openweather One Call API<br />
 The goal of this application was to show how server-side apis may be used to get data held on external servers. The developed application works by enabling users to access the Openweather One Call API to get weather information for searched cities. The information is then retrieved, showing the weather, wind, temperature, humidity, and UV Index. After then, the data is kept locally. Additional features include the ability to delete the search history and display a 5-day forecast. Unfortunately, even though the application started to function somewhat, I ran out of time. I do plan to fully submit the application this weekend.
 
-#User Story
+#User Story<br />
 AS A traveler
 I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
 
-#Acceptance Criteria
+#Acceptance Criteria<br />
 GIVEN a weather dashboard with form inputs
 WHEN I search for a city
 THEN I am presented with current and future conditions for that city and that city is added to the search history
