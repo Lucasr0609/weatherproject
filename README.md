@@ -30,5 +30,5 @@ THEN I am again presented with current and future conditions for that city
 
 #My Weather DashBoard
 
-<img scr="./assets/image/lucasr0609.github.io_weatherproject_.png">
+<img src="./assets/image/lucasr0609.github.io_weatherproject_.png">
 
