@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather Forecast Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Wheater forecast</h1>
+    </header>
+    <main class="container col">
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-3">
+                <form id="searchingcity" class="searchcitycontainer">
+                    <label for="citysearch" class="label">Search for a City</label>
+                    <input type="text" name="citysearch" id="citysearch" class="valueinput">
+                    <button type="submit" class="btn">Search</button>
+                </form>
+            </div>
+        
+            <div class="col-12 col-md-6 col-lg-8" id="current-city-wheather">
+                <h2 class="city">current city <span id="thecity"></span></h2>
+                <ul id="current-city-description">
+                    <li class="temp">Temp:<span id="display-current-temp"></span></li>
+                    <li class="wind">Wind:<span id="display-current-wind"></span></li>
+                    <li class="humidity">Humindity:<span id="display-current-humidity"></span></li>
+                    <li class="Uvindex">UV Index:<span id="display-current-uvindex"></span></li>
+                </ul>
+                <div>
+                    <h2>5-day forecast</h2>
+                </div>
+            
+
+            <div class="row">
+                <div clas="col-12 col-md-6 col-lg-2">
+                    <div class="card">
+                        <div class="card-body differentdayforecast">
+                            <ul id="day-1">
+                                <li id="date1">date:</li>
+                                <li id="temp1">Temp:</li>
+                                <li id="wind1">wind:</li>
+                                <li id="humidity1">Humidity:</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div clas="col-12 col-md-6 col-lg-2">
+                    <div class="card">
+                        <div class="card-body differentdayforecast">
+                            <ul id="day2">
+                                <li id="date2">date:</li>
+                                <li id="temp2">temp:</li>
+                                <li id="wind2">wind:</li>
+                                <li id="humidity2">Humidity:</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div clas="col-12 col-md-6 col-lg-2">
+                    <div class="card">
+                        <div class="card-body differentdayforecast">
+                            <ul id="day3">
+                                <li id="date3">date:</li>
+                                <li id="temp3">temp:</li>
+                                <li id="wind3">wind:</li>
+                                <li id="humidity3">Humidity:</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div clas="col-12 col-md-6 col-lg-2">
+                    <div class="card">
+                        <div class="card-body differentdayforecast">
+                            <ul id="day4">
+                                <li id="date4">date:</li>
+                                <li id="temp4">temp:</li>
+                                <li id="wind4">wind:</li>
+                                <li id="humidity4">Humidity:</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div clas="col-12 col-md-6 col-lg-2">
+                    <div class="card">
+                        <div class="card-body differentdayforecast">
+                            <ul id="day5">
+                                <li id="date5">date:</li>
+                                <li id="temp5">temp:</li>
+                                <li id="wind5">wind:</li>
+                                <li id="humidity5">Humidity:</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        
+        </div>
+
+        </div>
+    </main>
+</body>
+</html>
